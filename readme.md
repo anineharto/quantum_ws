@@ -1,4 +1,4 @@
-#Getting your hands dirty with Quantum Computing 
+# Getting your hands dirty with Quantum Computing 
 These exercise are a collection of python scripts as IPython notebook files. A pre-configured online environment 
 (Jupyter Notebook) is prepared to run the exercises. Additionally, if you want to run the quantum algorithms
 on a real quantum computer you need to sign up to IBM Q Experience (https://quantumexperience.ng.bluemix.net/qx/signup)
