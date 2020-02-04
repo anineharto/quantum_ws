@@ -16,7 +16,7 @@ def black_box_check(circuit, key, q):
     # any practical relevance. In practice, the oracle is generated systematically for each problem ecncoding
     # a function (or dataset) that cannot be inverted (or efficiently searched).
 
-    data_frame = pd.read_csv("fruits.csv")
+    data_frame = pd.read_csv("data/fruits.csv", sep=';')
     data_dict = data_frame.set_index('name').T.to_dict('records')[0]
     try:
         winner = uint4(data_dict[key])
